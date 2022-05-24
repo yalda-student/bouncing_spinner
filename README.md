@@ -1,14 +1,17 @@
-#Bouncing Spinner
+# Bouncing Spinner
 
 ## Features
 
-set color, radius and number of circles.
-
-## Getting started
+Set color, radius and number of circles.
 
 
+## Installing
 
-## Usage
+
+## Import
+
+
+## How To Use
 
 Include short and useful examples for package users. Add longer examples
 to `/example` folder. 
@@ -22,3 +25,9 @@ BouncingSpinner(
         color2: Colors.deepPurple,
       )
 ```
+
+## Screenshot
+
+<video width="150" height="150">
+  <source src="" type="video/mp4">
+</video>
