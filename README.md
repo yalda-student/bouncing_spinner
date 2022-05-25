@@ -1,7 +1,7 @@
 # Bouncing Spinner
 
 ## About
-This libarary is designed for using in flutter projects to indicate that the application is busy.
+This library is designed for using in flutter projects to indicate that the application is busy.
 
 ## Features
 
@@ -20,7 +20,7 @@ This will add a line like this to your package's pubspec.yaml (and run an implic
 
 ```dart
 dependencies:
-  bouncing_spinner: ^0.0.1+1
+  bouncing_spinner: 0.0.2
 ```
 
 ## Import
@@ -29,10 +29,10 @@ dependencies:
 import 'package:bouncing_spinner/bouncing_spinner.dart';
 ```
 
-## Example
+## 
 
 Include short and useful examples for package users. Add longer examples
-to `/` folder.
+to `/example` folder.
 
 ```dart
 BouncingSpinner(
@@ -46,7 +46,7 @@ BouncingSpinner(
 
 ## Screenshot
 
-<img src="https://raw.githubusercontent.com/yalda-student/bouncing_spinner/main/screenshots/video_2022-05-24_19-47-29.gif"  width="150" height="150">
+<img src="https://raw.githubusercontent.com/yalda-student/bouncing_spinner/main/screenshots/video_2022-05-24_19-47-29.gif"  width="200" height="200">
 </img>
 
 
