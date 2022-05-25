@@ -4,9 +4,9 @@ class BouncingSpinner extends StatefulWidget {
   final int length;
   final double radius;
   final Color color1;
-  Color? color2;
-  double? offset;
-  Duration? duration;
+  late final Color? color2;
+  late final double? offset;
+  Duration duration;
 
   BouncingSpinner(
       {Key? key,
@@ -15,11 +15,10 @@ class BouncingSpinner extends StatefulWidget {
       required this.color1,
       this.color2,
       this.offset,
-      this.duration})
+      this.duration = const Duration(milliseconds: 1500)})
       : super(key: key) {
     offset ??= radius / 2;
     color2 ??= color1;
-    duration ??= const Duration(milliseconds: 1500);
   }
 
   @override
